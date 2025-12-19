@@ -24,7 +24,7 @@ scopes = [
     "https://www.googleapis.com/auth/drive"
 ]
 
-creds = Credentials.from_service_account_file(
+creds = Credentials.from_service_account_info(
     service_account_info,
     scopes=scopes
 )
@@ -44,7 +44,7 @@ game = pd.read_csv("data/games.csv")
 food = pd.read_csv("data/food.csv")
 dSleep = pd.read_csv("data/dsleep.csv")
 appLaunch = pd.read_csv("data/applaunch.csv")
-activity = pd.read_csv(" data/activity.csv")
+activity = pd.read_csv("data/activity.csv")
 msg = pd.read_csv("data/msg.csv")
 calls = pd.read_csv("data/calls.csv")
 habits = pd.read_csv("data/habit.csv")
