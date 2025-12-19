@@ -2,7 +2,7 @@ name: Daily CSV Processing Job
 
 on:
   schedule:
-    - cron: "30 2 * * *"   # Daily at 08:00 IST
+    - cron: "30 6 * * *"   # Daily at 08:00 IST
   workflow_dispatch:
 
 jobs:
