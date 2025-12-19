@@ -47,7 +47,7 @@ appLaunch = pd.read_csv("data/applaunch.csv")
 activity = pd.read_csv("data/activity.csv")
 msg = pd.read_csv("data/msg.csv")
 calls = pd.read_csv("data/calls.csv")
-habits = pd.read_csv("data/habit.csv")
+habits = pd.read_csv("data/habits.csv")
 
 """###user data"""
 
